@@ -1,0 +1,8 @@
+What challenges did you encounter with this assignment, if any? 
+    None
+What did you think about the requirements specification for this assignment?
+    The assignment did not specify what to output in the case of invalid triangles or how to format right triangles.
+What challenges did you encounter with the tools?
+    None
+Describe the criteria you used to determine that you had sufficient test cases, i.e. how did you know you were done?
+    The test cases cover each type of potential output that can be caused by integer inputs, it then tests in different configurations of the sides of the triangle.
