@@ -1,12 +1,14 @@
-def classify_triangle(a,b,c):
+"""Homework assignment 1 for SSW 567"""
+def classify_triangle(side_a,side_b,side_c):
+    """Returns the type type of a triangle with sides a,b,c."""
     #Removing check for valid triangle as intended bug.
-    #if (a+b<=c or a+c<=b or b+c<=b):
-    #   return 'NotATriangle'
+    if (side_a+side_b<=side_c or side_a+side_c<=side_b or side_b+side_c<=side_b):
+       return 'NotATriangle'
     result=""
-    if((a*a+b*b)==(c*c)):
+    if(side_a*side_a+side_b*side_b)==(side_c*side_c):
         result+='Right '
-    if a==b or b==c or a==c:
-        if a==c and a==b:
+    if side_a==side_b or side_b==side_c or side_a==side_c:
+        if side_a==side_c and side_a==side_b:
             result+='Equilateral'
         else:
             result+='Isoceles'

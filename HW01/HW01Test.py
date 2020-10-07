@@ -1,5 +1,5 @@
 import unittest
-from HW01 import classify_triangle
+from hw01 import classify_triangle
 
 class TestTriangle(unittest.TestCase):
     def test1(self):
